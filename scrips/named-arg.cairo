@@ -1,6 +1,6 @@
-func foo(new_x, y) -> (z, w):
-    [ap] = new_x + y; ap++  # z.
-    [ap] = new_x * y; ap++  # w.
+func foo(x, y) -> (z, w):
+    [ap] = x + y; ap++  # z.
+    [ap] = x * y; ap++  # w.
     ret
 end
 
