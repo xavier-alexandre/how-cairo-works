@@ -25,6 +25,7 @@ cairo-run \
   --layout=small \
   --print_info --relocate_prints \
   --profile_output profile.pb.gz \
+  --cairo_path="/home/cairo_libs:/tmp/cairo_libs" \
   --steps=16 \
   --program=XXX.json
 ```
